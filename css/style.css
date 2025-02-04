@@ -21,10 +21,10 @@
 .container {
     display: flex;
     flex-direction: column;
-    background-color: va;
+    background-color: var(--bg-container);
 }
 .flexItem {
-    background-color: lightblue;
+    background-color: var(--bg-item);
     padding: 10px;
     margin: 5px;
 }
@@ -34,10 +34,10 @@
 .flex {
     display: flex;
     justify-content: center;
-    background-color: lightgray;
+    background-color: var(--bg-container);
 }
 .item {
-    background-color: lightblue;
+    background-color: var(--bg-item);
     padding: 10px;
     margin: 5px;
 }
@@ -46,10 +46,10 @@
 .flex-box {
     display: flex;
     align-items: flex-end;
-    background-color: lightgray;
+    background-color: var(--bg-container);
 }
 .items {
-    background-color: lightblue;
+    background-color: var(--bg-item);
     padding: 10px;
     margin: 5px;
 }
@@ -57,10 +57,10 @@
 /* 5.opdracht */
 .flex-grow-basis{
     display: flex;
-    background-color: lightgray;
+    background-color: var(--bg-container);
 }
 .flex-grow-basisItem {
-    background-color: lightblue;
+    background-color: var(--bg-item);
     padding: 10px;
     margin: 5px;
     flex-grow: 1; 
@@ -70,16 +70,16 @@
 /* 6.opdracht */
 .outer-container {
     display: flex;
-    background-color: lightgray;
+    background-color: var(--bg-container);
 }
 .inner-container {
     display: flex;
     flex-direction: column;
-    background-color: lightyellow;
+    background-color: var(--bg-container);
     margin-right: 20px;
 }
 .nested-item {
-    background-color: lightblue;
+    background-color: var(--bg-item);
     padding: 10px;
     margin: 5px;
 }
@@ -88,10 +88,10 @@
 .grid-layout {
     display: flex;
     flex-wrap: wrap;
-    background-color: lightgray;
+    background-color: var(--bg-container);
 }
 .flexbox-item {
-    background-color: lightblue;
+    background-color: var(--bg-item);
     padding: 10px;
     margin: 5px;
     width: 30%;    
